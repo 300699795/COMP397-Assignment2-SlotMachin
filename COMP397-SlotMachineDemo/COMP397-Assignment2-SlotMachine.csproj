@@ -67,6 +67,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\audio\background.mp3" />
     <Content Include="assets\images\background.png" />
     <Content Include="assets\images\banana.png" />
     <Content Include="assets\images\bar.png" />
@@ -95,7 +96,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\audio\" />
     <Folder Include="assets\fonts\" />
   </ItemGroup>
   <ItemGroup>

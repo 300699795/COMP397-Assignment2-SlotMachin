@@ -49,6 +49,10 @@ var powerButton: objects.Button;
 
 // FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+function backSound() {
+    createjs.Sound.registerSound({ id: "background", src: "assets/audio/background.mp3" });
+}
+
 function init() {
 
 

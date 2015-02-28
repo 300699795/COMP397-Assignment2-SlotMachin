@@ -38,6 +38,10 @@ var resetButton;
 var powerButton;
 
 // FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+function backSound() {
+    createjs.Sound.registerSound({ id: "background", src: "assets/audio/background.mp3" });
+}
+
 function init() {
     canvas = document.getElementById("canvas");
     stage = new createjs.Stage(canvas); // Parent Object
