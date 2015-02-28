@@ -1,7 +1,8 @@
 ﻿module objects {
 
    export class Button {
-        //PRIVATE INSTANCE VARIABLES
+       //PRIVATE INSTANCE VARIABLES
+       private _text: Text;
         private _image: createjs.Bitmap;
         private _x: number;
         private _y: number;
@@ -37,6 +38,9 @@
         public getImage(): createjs.Bitmap {
             return this._image;
         }
+       public getText(): Text {
+           return this._text;
+       }
 
 
         // PRIVATE EVENT HANDLERS
@@ -50,7 +54,6 @@
 
         }
     }
-
 }
 
 
